@@ -4,6 +4,7 @@
 	import { webVitals } from '$lib/vitals';
 	import Header from './Header.svelte';
 	import './styles.css';
+	import Footer from "./Footer.svelte";
 
 	/** @type {import('./$types').LayoutServerData} */
 	export let data;
@@ -23,6 +24,8 @@
 	<main>
 		<slot />
 	</main>
+
+	<Footer />
 </div>
 
 <style>

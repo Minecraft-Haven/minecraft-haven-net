@@ -12,7 +12,7 @@
 	<h2>A Minecraft Minigame Server</h2>
 
 	<div>
-		Play now at
+		Play eventually at
 		<pre>minecrafthaven.net</pre>
 	</div>
 </section>
