@@ -21,24 +21,24 @@
                     <img src={youtube} alt="YouTube"/></a>
             </li>
             <li>
-                <a href="https://www.tiktok.com/@minecrafthaven?lang=en" target="_blank">
+                <a href="https://www.tiktok.com/@melonpanoffical?lang=en" target="_blank">
                     <img src={tiktok} alt="TikTok"/></a>
             </li>
             <li>
                 {#if Math.random() > 0.5}
-                    <a href="https://twitter.com/MCHavenFox" target="_blank">
+                    <a href="https://twitter.com/melonpanoffice" target="_blank">
                         <img src={twitter} alt="Twitter"/></a>
                 {:else}
-                    <a href="https://x.com/MCHavenFox" target="_blank">
+                    <a href="https://x.com/melonpanoffice" target="_blank">
                         <img src={twitterx} alt="X"/></a>
                 {/if}
             </li>
             <li>
-                <a href="https://www.instagram.com/minecrafthavenfox/" target="_blank">
+                <a href="https://www.instagram.com/melonpanoffice/" target="_blank">
                     <img src={instagram} alt="Instagram"/></a>
             </li>
             <li>
-                <a href="https://bsky.app/profile/minecrafthaven.bsky.social" target="_blank">
+                <a href="https://bsky.app/profile/melonpanofficial.bsky.social" target="_blank">
                     <div class="bluesky"></div>
                 </a>
             </li>
