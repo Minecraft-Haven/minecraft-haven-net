@@ -19,7 +19,7 @@
 				<a href="/about">About</a>
 			</li>
 			<li aria-current={undefined}>
-				<a href="https://discord.gg/invite/example" target="_blank">Discord</a>
+				<a href="https://discord.gg/DVKypU5P3x"  target="_blank">Discord</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">???</a>
