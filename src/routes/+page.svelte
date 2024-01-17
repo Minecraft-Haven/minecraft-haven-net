@@ -1,5 +1,20 @@
 <script>
+	import { onMount } from 'svelte';
 
+	let time = (Date.UTC(2024, 0, 19, 17) - Date.now()) / 1000;
+	let timeDisplay = '';
+	let hours, minutes, seconds;
+
+	onMount(() => {
+		setInterval(() => time = (Date.UTC(2024, 0, 19, 17) - Date.now()) / 1000, 1000);
+	});
+
+	$: {
+		hours = Math.floor((time / 3600));
+		minutes = Math.floor(time % 3600 / 60);
+		seconds = Math.floor(time % 60);
+		timeDisplay = time > 0 ? `in ${hours >= 10 ? hours : `0${hours}`}:${minutes >= 10 ? minutes : `0${minutes}`}:${seconds >= 10 ? seconds : `0${seconds}`}` : 'now';
+	}
 </script>
 
 <svelte:head>
@@ -11,9 +26,14 @@
 	<h1>melonpan</h1>
 	<h2>A Minecraft Minigame Server</h2>
 
-	<div>
-		Play eventually at
-		<pre>melonpan.xyz</pre>
+	<div class="tiles">
+		<div class="ip">
+			Play below {timeDisplay}
+			<pre title="copy to clipboard" on:keypress={(key) => key.key === 'Enter' && navigator.clipboard.writeText('melonpan.xyz')} on:click={() => navigator.clipboard.writeText('melonpan.xyz')}>melonpan.xyz</pre>
+		</div>
+		<div class="announcements"></div>
+		<div class="rules"></div>
+		<div class="faq"></div>
 	</div>
 </section>
 
@@ -42,5 +62,6 @@
 		margin-top: 0.3em;
 		background: rgba(0, 0, 0, 0.5);
 		color: white;
+			font-size: 1.5rem;
 	}
 </style>
