@@ -1,12 +1,12 @@
 <svelte:head>
-	<title>MCH: About</title>
-	<meta name="description" content="About MCH" />
+	<title>melonpan: about</title>
+	<meta name="description" content="about melonpan" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About Minecraft Haven</h1>
+	<h1>about melonpan</h1>
 
-	<p>Minecraft Haven is an upcoming Minecraft minigame server.</p>
+	<p>melonpan is an upcoming minecraft minigame server.</p>
 
-	<p>More details soon.</p>
+	<p>more details soon.</p>
 </div>

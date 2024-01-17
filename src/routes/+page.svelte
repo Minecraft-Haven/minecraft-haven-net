@@ -3,17 +3,17 @@
 </script>
 
 <svelte:head>
-	<title>MCH</title>
-	<meta name="description" content="Minecraft Haven" />
+	<title>melonpan</title>
+	<meta name="description" content="melonpan" />
 </svelte:head>
 
 <section>
-	<h1>Minecraft Haven</h1>
+	<h1>melonpan</h1>
 	<h2>A Minecraft Minigame Server</h2>
 
 	<div>
 		Play eventually at
-		<pre>minecrafthaven.net</pre>
+		<pre>melonpan.xyz</pre>
 	</div>
 </section>
 
