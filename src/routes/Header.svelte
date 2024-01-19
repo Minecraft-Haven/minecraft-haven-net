@@ -1,21 +1,17 @@
 <script>
-	import { page } from '$app/stores';
 </script>
 
 <header>
 	<nav>
 		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+			<li>
 				<a href="/">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
+			<li>
 				<a href="/about">About</a>
 			</li>
-			<li aria-current={undefined}>
+			<li>
 				<a href="https://discord.gg/DVKypU5P3x"  target="_blank">Discord</a>
-			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">???</a>
 			</li>
 		</ul>
 	</nav>
@@ -53,18 +49,6 @@
 		position: relative;
 		height: 100%;
 		padding: 0 1em;
-	}
-
-	li[aria-current='page']::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
 	}
 
 	nav a {
