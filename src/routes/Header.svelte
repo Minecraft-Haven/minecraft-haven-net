@@ -20,7 +20,7 @@
 <style>
 	header {
 		display: flex;
-		width: 100vw;
+		width: 100%;
 		justify-content: space-between;
 	}
 
@@ -36,7 +36,7 @@
 		padding: 0;
 		margin: 0;
 		width: 100vw;
-		height: 3em;
+		height: 3rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -48,7 +48,7 @@
 	li {
 		position: relative;
 		height: 100%;
-		padding: 0 1em;
+		padding: 0 1rem;
 	}
 
 	nav a {
@@ -60,7 +60,7 @@
 		font-weight: 700;
 		font-size: 0.8rem;
 		text-transform: uppercase;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.1rem;
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}

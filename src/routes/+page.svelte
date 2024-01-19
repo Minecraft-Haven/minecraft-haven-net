@@ -92,11 +92,11 @@
 	}
 
 	.rules li {
-			margin: 0.5em;
+			margin: 0.5rem;
 	}
 
 	pre {
-		margin-top: 0.3em;
+		margin-top: 0.3rem;
 		background: rgba(0, 0, 0, 0.5);
 		color: white;
 			font-size: 1.5rem;

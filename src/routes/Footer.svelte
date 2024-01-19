@@ -43,7 +43,7 @@
 <style>
     footer {
         display: flex;
-        width: 100vw;
+        width: 100%;
         height: 6rem;
         justify-content: space-between;
     }
@@ -75,31 +75,31 @@
     li {
         position: relative;
         height: 100%;
-        padding: 0 1em;
+        padding: 0 1rem;
     }
 
     img {
         color: green;
-        width: 1.5em;
+        width: 1.5rem;
     }
 
     .bluesky {
-        width: 1.5em;
-        height: 1.5em;
+        width: 1.5rem;
+        height: 1.5rem;
         background-color: blue;
-        border-radius: 0.2em;
+        border-radius: 0.2rem;
     }
 
     nav a {
         display: flex;
-        height: 4em;
+        height: 4rem;
         align-items: center;
         padding: 0 0.5rem;
         color: var(--color-text);
         font-weight: 700;
         font-size: 0.8rem;
         text-transform: uppercase;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.1rem;
         text-decoration: none;
         transition: color 0.2s linear;
     }

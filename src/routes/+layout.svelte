@@ -35,6 +35,18 @@
 		min-height: 100vh;
 	}
 
+	@media(max-width: 768px) {
+			:root {
+          font-size: 14px !important;
+      }
+	}
+
+  @media(max-width: 400px) {
+      :root {
+          font-size: 12px !important;
+      }
+  }
+
 	main {
 		display: flex;
 		flex: 1;
