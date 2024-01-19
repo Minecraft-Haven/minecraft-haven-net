@@ -6,7 +6,7 @@
 <div class="text-column">
 	<h1>about melonpan</h1>
 
-	<p>melonpan is an upcoming minecraft minigame server.</p>
+	<p>melonpan is an upcoming Minecraft survival server.</p>
 
-	<p>more details soon.</p>
+	<p>Later on, we plan to add a variety of fun minigames. Stay tuned for more details.</p>
 </div>
