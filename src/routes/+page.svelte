@@ -32,7 +32,7 @@
 		</div>
 		<div class="ip">
 			<h1>melonpan</h1>
-			<h2 style="margin-bottom: 15rem;">A Minecraft Minigame Server</h2>
+			<h2>A Minecraft Minigame Server</h2>
 			Play below {timeDisplay}
 			<pre title="copy to clipboard" on:keypress={(key) => key.key === 'Enter' && navigator.clipboard.writeText('melonpan.xyz')} on:click={() => navigator.clipboard.writeText('melonpan.xyz')}>melonpan.xyz</pre>
 		</div>
@@ -53,7 +53,8 @@
 <style>
 	section {
 		display: flex;
-		flex: 1;
+		height: 100%;
+		overflow: hidden;
 	}
 
 	h1 {
@@ -72,6 +73,18 @@
 			grid-template-columns: 1fr 2fr 1fr;
 			grid-template-rows: 1fr;
 	}
+
+	@media(max-width: 768px) {
+			.tiles {
+					grid-template-columns: 1fr;
+			}
+			.rules {
+					display: none;
+			}
+			.announcements {
+					display: none;
+			}
+  }
 
 	.ip {
 		margin-top: 2em;

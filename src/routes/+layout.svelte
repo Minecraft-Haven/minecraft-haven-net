@@ -30,29 +30,14 @@
 
 <style>
 	.app {
-		display: flex;
-		flex-direction: column;
 		min-height: 100vh;
+		width: 100vw;
 	}
-
-	@media(max-width: 768px) {
-			:root {
-          font-size: 14px !important;
-      }
-	}
-
-  @media(max-width: 400px) {
-      :root {
-          font-size: 12px !important;
-      }
-  }
 
 	main {
-		display: flex;
-		flex: 1;
 		padding: 1rem;
 		width: 100%;
-		height: 100%;
+		height: 84vh;
 		margin: 0;
 		box-sizing: border-box;
 	}

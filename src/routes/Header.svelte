@@ -20,7 +20,9 @@
 <style>
 	header {
 		display: flex;
-		width: 100%;
+		width: auto;
+		height: 6vh;
+		overflow: hidden;
 		justify-content: space-between;
 	}
 
