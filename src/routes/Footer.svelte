@@ -6,15 +6,8 @@
     import twitterx from '$lib/images/x-twitter.svg';
 </script>
 
-<header>
-    <div class="corner">
-
-    </div>
-
+<footer>
     <nav>
-        <svg style="scale: -1" viewBox="0 0 2 3" aria-hidden="true">
-            <path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z"/>
-        </svg>
         <ul>
             <li>
                 <a href="https://www.youtube.com/channel/UC1LKNodmraOQZV81x7qnebg" target="_blank">
@@ -43,53 +36,39 @@
                 </a>
             </li>
         </ul>
-        <svg style="scale: -1" viewBox="0 0 2 3" aria-hidden="true">
-            <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z"/>
-        </svg>
+        <p>DISCLAIMER: melonpan is not associated with Microsoft, Mojang, or Minecraft in any way.</p>
     </nav>
-
-    <div class="corner">
-
-    </div>
-</header>
+</footer>
 
 <style>
-    header {
+    footer {
         display: flex;
+        width: 100vw;
+        height: 6rem;
         justify-content: space-between;
-    }
-
-    .corner {
-        width: 3em;
-        height: 3em;
     }
 
     nav {
         display: flex;
+        width: 100vw;
+        height: 6rem;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
         --background: rgba(255, 255, 255, 0.7);
-    }
-
-    svg {
-        width: 2em;
-        height: 3em;
-        display: block;
-    }
-
-    path {
-        fill: var(--background);
+        background: var(--background);
     }
 
     ul {
         position: relative;
         padding: 0;
         margin: 0;
-        height: 3em;
+        width: 100vw;
+        height: 6rem;
         display: flex;
         justify-content: center;
         align-items: center;
         list-style: none;
-        background: var(--background);
         background-size: contain;
     }
 
@@ -113,7 +92,7 @@
 
     nav a {
         display: flex;
-        height: 100%;
+        height: 4em;
         align-items: center;
         padding: 0 0.5rem;
         color: var(--color-text);
