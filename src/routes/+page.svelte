@@ -24,7 +24,7 @@
 
 <section>
 	<h1>melonpan</h1>
-	<h2>A Minecraft Minigame Server</h2>
+	<h2>A Minecraft Survival Server</h2>
 
 	<div class="tiles">
 		<div class="ip">
