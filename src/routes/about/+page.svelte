@@ -8,5 +8,5 @@
 
 	<p>melonpan is a new minecraft survival server.</p>
 
-	<p>more details soon.</p>
+	<p>Later on, we plan to add a variety of fun minigames. Stay tuned for more details.</p>
 </div>
