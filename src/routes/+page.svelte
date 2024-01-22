@@ -32,7 +32,7 @@
 		</div>
 		<div class="ip">
 			<h1>melonpan</h1>
-			<h2>A Minecraft Minigame Server</h2>
+			<h2>A Minecraft Survival Server</h2>
 			Play below {timeDisplay}
 			<pre title="copy to clipboard" on:keypress={(key) => key.key === 'Enter' && navigator.clipboard.writeText('melonpan.xyz')} on:click={() => navigator.clipboard.writeText('melonpan.xyz')}>melonpan.xyz</pre>
 		</div>
